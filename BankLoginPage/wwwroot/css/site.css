@@ -1,0 +1,129 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: hsl(218deg 50% 91%);
+}
+
+
+
+.login-btn, .register-btn {
+    padding: 1em;
+    background: hsl(233deg 36% 38%);
+    color: hsl(0 0 100);
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    width: 330px;
+}
+
+.password, .username, .email, .lastname, .firstname {
+    background: hsl(0deg 0% 100%);
+    box-shadow: 0 0 2em hsl(231deg 62% 94%);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    border-radius: 20px;
+    color: hsl(0deg 0% 30%);
+    margin-bottom: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.login-layout, .register-layout {
+    user-select: none;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-custom {
+    background: rgb(113 44 249 / 95%);
+    font-size: 20px;
+}
+
+.navbar-light, .navbar-nav, .nav-link {
+    color: floralwhite !important;
+}
+
+label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+img {
+    width: 200px;
+}
+
+main {
+    padding: 50px;
+}
+
+.hero {
+    text-align: center;
+}
+
+    .hero h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+    }
+
+    .hero p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .hero a {
+        background-color: #007bff;
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+
+        .hero a:hover {
+            background-color: #0062cc;
+        }
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    width: calc(33% - 50px);
+}
+
+    .service img {
+        margin-bottom: 10px;
+        width: 80px;
+    }
